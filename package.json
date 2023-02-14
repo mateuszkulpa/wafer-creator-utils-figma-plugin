@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@create-figma-plugin/ui": "^2.2.0",
+    "@create-figma-plugin/utilities": "^2.2.0",
+    "preact": ">=10"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^2.2.0",
+    "@create-figma-plugin/tsconfig": "^2.2.0",
+    "@figma/plugin-typings": "1.57.1",
+    "typescript": ">=4"
+  },
+  "scripts": {
+    "build": "build-figma-plugin --typecheck --minify",
+    "watch": "build-figma-plugin --typecheck --watch"
+  },
+  "figma-plugin": {
+    "editorType": [
+      "figma"
+    ],
+    "name": "Wafer creator utils",
+    "main": "src/main.ts",
+    "ui": "src/ui.tsx"
+  }
+}

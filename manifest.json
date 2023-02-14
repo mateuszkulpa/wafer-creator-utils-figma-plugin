@@ -1,0 +1,10 @@
+{
+  "api": "1.0.0",
+  "editorType": [
+    "figma"
+  ],
+  "id": "wafer-creator-utils",
+  "name": "Wafer creator utils",
+  "main": "build/main.js",
+  "ui": "build/ui.js"
+}
